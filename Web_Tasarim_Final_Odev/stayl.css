@@ -1,0 +1,169 @@
+
+body {
+    background: #dad9d9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+
+}
+
+
+header {
+    background: #dad9d9;
+    color: white;
+    padding: 10px 0;
+    
+}
+nav h1 {
+    color: rgb(0, 0, 0);
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    
+}
+h1 div{
+    margin-right: 10px;
+    
+} 
+
+footer {
+    background: #dad9d9;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding:10px;
+    position: fixed;
+    bottom: 6%;/*En son değiştirdiğim 0px'ti.*/
+    left: 0px;
+    right: 0px;
+    height: 50px;
+     /*Sayfanın altına yapıştırma.*/
+     
+}
+
+hr {
+    width:96%;
+    position: relative;
+    top:54px;
+    border: none;
+    height:10px;
+    background: black;
+    margin-bottom: 20px;
+}
+.basit
+ {
+    background-color: #d5910a;
+    border-radius: 20px;
+    width:20px;
+    height:20px;
+    right: 5px;
+    margin-left: 10px;
+    
+}
+
+.yuvarla img {
+    border-radius: 50%;
+    height: 550px;
+    width: 550px;
+    object-fit: cover;
+    position: absolute;
+
+    left: 400px;
+    top: 175px;
+}
+.baslik{
+    
+    right: 500px;
+    width: 300px;
+    height: 200px;
+    
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 1000px;
+}
+
+div .buton_1
+{
+    border-radius: 200px;
+    width: 210px;
+    height: 210px;
+    background-color:#e69a30;
+    margin-left: 1000px;
+    margin-top: 140px;
+     
+}
+div .buton_1 h2{
+    
+    right: 200px;
+    width: 100px;
+    height: 100px;
+    padding: 100px;
+    margin-top: 50px;
+    margin-left:-60px;
+    color: #f8fffb;
+
+}
+
+
+ div .buton_2{
+    border-radius: 200px;
+    width: 210px;
+    height: 210px;
+    background-color:#ff6200;
+    margin-left: 1230px;
+    margin-top: -250px;
+    
+    
+}
+div .buton_2 h2{
+    
+    right: 200px;
+    width: 100px;
+    height: 100px;
+    padding: 100px;
+    margin-top: 45px;
+    margin-left:-35px;
+    color: #f8fffb;
+}
+
+div .buton_3
+{
+    border-radius: 200px;
+    width: 210px;
+    height: 210px;
+    background-color:#29b3bd;
+    margin-left: 1458px;
+    margin-top: -250px;
+
+}
+div .buton_3 h2
+{
+    right: 200px;
+    width: 100px;
+    height: 100px;
+    padding: 100px;
+    margin-top: 45px;
+    margin-left:-47px;
+    color: #f8fffb;
+}
+ 
+
+
+nav ul {
+    list-style-type: none; /* Nokta işaretlerini kaldırır */
+    padding: 0; /* Varsayılan padding'i kaldırır */
+    margin: 0; /* Varsayılan margin'i kaldırır */
+    display: flex; /* Flexbox kullanarak elemanları hizalar */
+    justify-content: space-between; /* Elemanlar arasında eşit boşluk bırakır */
+    flex-wrap: wrap; /* Satır sonuna gelince yeni satıra geçer */
+}
+
+nav ul li {
+    flex: 1; /* Her bir 'li' elemanı eşit oranda esner */
+    /*border: 1px solid #000;*/ /* Her bir 'li' elemanına sınır ekler */
+    box-sizing: border-box; /* Padding ve border genişliğini dahil eder */
+    text-align: center; /* Metni ortalar */
+    padding:5px; /* İçerik etrafında boşluk bırakır */
+}
+ 

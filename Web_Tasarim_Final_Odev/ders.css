@@ -1,0 +1,119 @@
+body {
+    background: #dad9d9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+
+}
+
+header {
+    background: #dad9d9;
+    color: white;
+    padding: 10px 0;
+    
+}
+
+nav h1 {
+    color: rgb(0, 0, 0);
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    
+}
+h1 div{
+    margin-right: 10px;
+    
+}
+footer {
+    background: #dad9d9;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding:10px;
+    position: fixed;
+    bottom: 6%;/*En son değiştirdiğim 0px'ti.*/
+    left: 0px;
+    right: 0px;
+    height: 40px;
+     /*Sayfanın altına yapıştırma.*/
+     
+} 
+
+hr {
+    width: 98%;
+    position: relative;
+    top: 30px;
+    border: none;
+    height: 1px;
+    background: black;ss
+    margin-bottom:10px;
+}
+
+.basit
+ {
+    background-color: #d5910a;
+    border-radius: 20px;
+    width:20px;
+    height:20px;
+    right: 5px;
+    margin-left: 10px;
+    
+}
+
+
+nav ul {
+    list-style-type: none; /* Nokta işaretlerini kaldırır */
+    padding: 0; /* Varsayılan padding'i kaldırır */
+    margin: 0; /* Varsayılan margin'i kaldırır */
+    display: flex; /* Flexbox kullanarak elemanları hizalar */
+    justify-content: space-between; /* Elemanlar arasında eşit boşluk bırakır */
+    flex-wrap: wrap; /* Satır sonuna gelince yeni satıra geçer */
+}
+
+nav ul li {
+    flex: 1; /* Her bir 'li' elemanı eşit oranda esner */
+    /*border: 1px solid #000;*/ /* Her bir 'li' elemanına sınır ekler */
+    box-sizing: border-box; /* Padding ve border genişliğini dahil eder */
+    text-align: center; /* Metni ortalar */
+    padding: 5px; /* İçerik etrafında boşluk bırakır */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+   
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top:-20px;
+}
+
+table {
+    width: 80%;
+    margin: 10px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: -20;
+}
+
+thead {
+    background-color: #d5910a;
+    color: #fff;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}

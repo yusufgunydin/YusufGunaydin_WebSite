@@ -1,0 +1,157 @@
+
+body {
+    background: #dad9d9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+
+}
+
+header {
+    background: #dad9d9;
+    color: white;
+    padding: 10px 0;
+    
+}
+
+nav h1 {
+    color: rgb(0, 0, 0);
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    
+}
+h1 div{
+    margin-right: 10px;
+    
+}
+footer {
+    background: #dad9d9;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding:10px;
+    position: fixed;
+    bottom: 6%;/*En son değiştirdiğim 0px'ti.*/
+    left: 0px;
+    right: 0px;
+    height: 40px;
+     /*Sayfanın altına yapıştırma.*/
+     
+} 
+
+.hak{
+      padding: 20px;
+    margin-top: 15px ;
+    margin-left: 100px ;
+}
+
+hr {
+    width: 98%;
+    position: relative;
+    top: 7px;
+    border: none;
+    height: 1px;
+    background: black;ss
+    margin-bottom:20px;
+}
+
+.basit
+ {
+    background-color: #d5910a;
+    border-radius: 20px;
+    width:20px;
+    height:20px;
+    right: 5px;
+    margin-left: 10px;
+    
+}
+
+
+nav ul {
+    list-style-type: none; /* Nokta işaretlerini kaldırır */
+    padding: 0; /* Varsayılan padding'i kaldırır */
+    margin: 0; /* Varsayılan margin'i kaldırır */
+    display: flex; /* Flexbox kullanarak elemanları hizalar */
+    justify-content: space-between; /* Elemanlar arasında eşit boşluk bırakır */
+    flex-wrap: wrap; /* Satır sonuna gelince yeni satıra geçer */
+}
+
+nav ul li {
+    flex: 1; /* Her bir 'li' elemanı eşit oranda esner */
+    /*border: 1px solid #000;*/ /* Her bir 'li' elemanına sınır ekler */
+    box-sizing: border-box; /* Padding ve border genişliğini dahil eder */
+    text-align: center; /* Metni ortalar */
+    padding: 5px; /* İçerik etrafında boşluk bırakır */
+}
+
+
+
+.baslik{
+
+    padding: 20px;
+    margin-top: 130px;
+    margin-left: 300px;
+   color: #d5910a;
+}
+
+.altbaslik_1 { 
+    
+    padding: 20px;
+    margin-top:-300px;
+    margin-left: 800px;
+    color: #000000;
+}
+
+ 
+    .pragraf {
+
+    padding: 10px;
+    margin-top: -25px;
+    margin-left: 800px;
+    color: #000000;
+    }
+
+    .egtim
+    {   
+
+     padding: 20px;
+     margin-top:-10px;
+     margin-left: 800px;
+     color: #000000;
+    
+    }
+
+    .liste
+    {
+        padding: 10px;
+        margin-top: -10px;
+        margin-left: 800px;
+        color: #000000;
+    }
+
+ .ilgi
+ {
+    padding: 20px;
+    margin-top:-10px;
+    margin-left: 800px;
+    color: #000000;
+   
+
+ }
+
+
+
+
+    .liste_1 
+{
+    padding: 10px;
+    margin-top: -15px;
+    margin-left: 800px;
+    color: #000000;
+}
+
+
+
+
